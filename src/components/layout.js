@@ -15,7 +15,7 @@ class Layout extends Component {
     }
   }
   render() {
-    const { children, location } = this.props
+    const { children } = this.props
     return (
       <StaticQuery
         query={graphql`
